@@ -13,7 +13,6 @@ Model ini dikembangkan dengan memperhatikan beberapa aspek lanjutan berikut:
 - Dataset terdiri dari lebih dari **10.000 gambar**.
 - Akurasi pada **training dan validation mencapai ≥95%**.
 - Jumlah label yang diklasifikasikan lebih dari **3 kelas**.
-- Model mendukung proses **inference menggunakan TensorFlow Serving**.
 
 ---
 
@@ -31,13 +30,13 @@ Gambar telah diacak ukurannya untuk memenuhi kriteria resolusi tidak seragam, an
 
 ### Distribusi Data (4 kelas terpilih)
 
-| Label                           | Jumlah Gambar |
+| Label                          | Jumlah Gambar |
 |--------------------------------|---------------|
 | Tomato_Yellow_Leaf_Curl_Virus  | 5357          |
 | Late_blight                    | 1909          |
-| Healthy                        | 1591          |
+| Spider_mites Two-spotted_spider_mite|1676      |
 | Septoria_leaf_spot             | 1771          |
-| **Total**                      | **10628**     |
+| **Total**                      | **10.713**    |
 
 ---
 
